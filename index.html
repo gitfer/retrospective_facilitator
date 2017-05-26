@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TITLE</title>
+
+    <!-- meta information -->
+    <meta name="author" content="Torsten Schrade" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- favicons -->
+    <link rel="shortcut icon" href="resources/img/favicon.png" />
+    <link rel="apple-touch-icon" href="resources/img/apple-touch-icon.png" />
+
+    <!-- CSS reset and grid -->
+    <link href="vendor/normalize/normalize-4.1.1.css" rel="stylesheet" />
+    <link href="vendor/skeleton/skeleton-2.0.4.css" rel="stylesheet" />
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,600italic,400italic,700italic,800,800italic&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css" />
+
+    <!-- styles for included libraries -->
+
+    <!-- chartist -->
+    <link rel="stylesheet" href="vendor/chartist/chartist.min-0.9.7.css" />
+
+    <!-- codemirror -->
+    <link rel="stylesheet" href="vendor/codemirror/lib/codemirror.css" />
+
+    <!-- highlight -->
+    <link rel="stylesheet" href="vendor/highlight/styles/default.css" />
+    <link rel="stylesheet" href="resources/css/hljs.linenumbering.css" />
+
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup-1.1.0.css" />
+
+    <!-- standard presentation styles -->
+    <link href="resources/css/style.css" rel="stylesheet" />
+
+    <!-- custom presentation styles -->
+    <link href="resources/css/custom.css" rel="stylesheet" />
+
+    <!-- js needed in head -->
+
+    <!-- greuler -->
+    <script src="vendor/d3/d3-3.5.6.js"></script>
+    <script src="vendor/cola/cola.v3.min.js"></script>
+    <script src="vendor/greuler/greuler-0.5.5.min.js"></script>
+
+    <!-- html5 dataset shim for IE -->
+    <script src="vendor/impress/html5-dataset.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <div class="fallback-message">
+        <p>
+            Your browser <strong>doesn't support the features required</strong> by impress.mod.js,
+            so you are presented with a simplified version of this presentation.
+        </p>
+        <p>
+            For the best experience please use the latest <strong>Chrome</strong>, <strong>Safari</strong>
+            or <strong>Firefox</strong> browser.
+        </p>
+    </div>
+
+    <div id="impress">
+
+        <div class="step">
+
+            <h1 class="down-100">Retrospettive</h1>
+
+            <h2 class="red up-25">Come funzionano per noi</h2>
+
+            
+              <p class="small up-25">
+                <a href="https://www.amazon.it/Ottieni-meglio-dalle-Retrospettive-Agili-ebook/dp/B00PNKAA5C" target="_blank">Ottieni il meglio dalle tue Retrospettive Agili</a>
+              </p>
+        </div>
+
+        <div class="step">
+            <h2>12esimo principio agile</h2>
+            
+            <blockquote>
+                A intervalli <span class="dotted">regolari</span> il team riflette su come diventare più efficace,
+                dopodichè regola e adatta il proprio comportamento di conseguenza.
+            </blockquote>
+        </div>
+
+
+        <div class="step">
+            <h3 class="red up-25 after-25">Brevi</h3> cicli di miglioramento
+            <p class="justify">
+                <h4><strong class="red up-25">Azioni</strong> da intraprendere.</h4>
+                <h4 class="red up-25">Potenziare il team</h4>
+            </p>
+        </div>
+
+        <div class="step">
+            <h2>Come realizzare le azioni</h2>
+            <h4 class="red up-25 after-25">Poche</h4> azioni per volta
+            <h3 class="red up-25 after-25">Concordandole</h3>
+            <h3 class="red up-25 after-25">Rendendole visibili</h3>
+            <p class="small justify">
+               (Discuterle nello sprint planning, metterle nel backlog di prodotto)
+            </p>
+            <h3 class="red up-25 after-25">Controllando e discutendo lo stato di realizzazione</h3>
+        </div>
+        
+        <div class="step">
+            <h2>Diverse tecniche</h2>
+            <p class="medium up-25">
+               Fare domande, stella di mare, il veliero, retrospettiva con una parola, marca automobilistica, indice di felicità, costellazione, sondaggio di valutazione del team, retrospettiva basata sui punti di forza, albero dell'alto rendimento, mappa del flusso di valore, retrospettiva delle retrospettive
+            </p>
+            <ul class="line-height-one-five">
+                <li>
+                    Cosa puoi ottenere da questa tecnica
+                </li>
+                <li>
+                    Quando si usa
+                </li>
+                <li>
+                    Come si fa
+            </ul>
+        </div>
+
+<!-- 
+        <div class="step">
+            <h2>Appunti</h2>
+            <script>
+                  function storeUserScribble(id) {
+                    var scribble = document.getElementById('scribble').innerHTML;
+                    localStorage.setItem('userScribble',scribble);
+                  }
+
+                  function getUserScribble() {
+                    if ( localStorage.getItem('userScribble')) {
+                      var scribble = localStorage.getItem('userScribble');
+                    }
+                    else {
+                      var scribble = 'You can scribble directly on this sticky... and I will also remember your message the next time you visit my blog!';
+                    }
+                    document.getElementById('scribble').innerHTML = scribble;
+                  }
+
+                  function clearLocal() {
+                    clear: localStorage.clear(); 
+                    return false;
+                  }
+                </script> 
+
+            <pre id="scribble" contenteditable="true" onkeyup="storeUserScribble(this.id);"></pre> 
+        </div> -->
+
+    </div>
+
+    <!-- jquery -->
+    <script src="vendor/jquery/jquery-1.11.0.min.js"></script>
+
+    <!-- chartist -->
+    <script src="vendor/chartist/chartist.min-0.9.7.js"></script>
+    <script src="resources/js/chartist.charts.js"></script>
+
+    <!-- codemirror -->
+    <script src="vendor/codemirror/lib/codemirror.js"></script>
+    <script src="vendor/codemirror/addon/edit/matchbrackets.js"></script>
+    <script src="vendor/codemirror/mode/sparql/sparql.js"></script>
+    <script>
+        var editor = CodeMirror.fromTextArea(document.getElementById("sparql"), {
+            mode: "application/sparql-query",
+            matchBrackets: true,
+            lineNumbers: true,
+            viewportMargin: Infinity
+        });
+    </script>
+
+    <!-- highlight -->
+    <script src="vendor/highlight/highlight.pack-9.3.0.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="resources/js/hljs.linenumbering.js"></script>
+
+    <!-- magnific popup -->
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min-1.1.0.js"></script>
+    <script src="resources/js/magnific-popup.lightbox.js"></script>
+
+    <!-- impress.mod.js -->
+    <script src="vendor/impress/impress.fork.js"></script>
+    <script src="vendor/impress/impress-slidenum.js"></script>
+    <script>
+        var obj = impress();
+        obj.init();
+        initSlideNo(obj);
+    </script>
+
+</body>
+</html>
